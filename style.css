@@ -1181,650 +1181,988 @@ padding: 100px 0px ;
     padding-bottom: 100px;
 }
 
-/* Responsive CSS for all devices */
+        /* Perfect Responsive CSS for Crypto Landing Page */
 
-/* Large devices (desktops, 1200px and below) */
-@media screen and (max-width: 1200px) {
-  .nav-1200, .w-1240 {
-    width: 95%;
-    margin: auto;
-  }
-
-  .navbar {
-    width: 95% !important;
-    margin: auto;
-  }
-
-  .menu ul {
-    gap: 15px;
-  }
-
-  .menu ul li a {
-    padding: 10px;
-    font-size: 12px;
-  }
-
-  .hero-about p, .hero-about2 p, .hero-about3 p {
-    font-size: 48px;
-  }
-
-  .t-titile, .t-titile1, .f-50 h2, .s-50 h2 {
-    font-size: 40px;
-  }
-}
-
-/* Medium devices (tablets, 992px and below) */
-@media screen and (max-width: 992px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 15px;
-    position: relative;
-    background-color: #1e1d1dfe;
-  }
-
-  .nav-logo {
-    margin-bottom: 15px;
-  }
-
-  .menu {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .menu ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .menu ul li a {
-    font-size: 12px;
-    padding: 8px 12px;
-  }
-
-  .button-nav {
+/* Reset and Base Styles */
+* {
     margin: 0;
-  }
-
-  .hero {
-    padding: 30px 0;
-  }
-
-  .h-40 {
-    width: 90%;
-    left: 5%;
-    height: auto;
-    position: relative;
-  }
-
-  .email {
-    margin: 0 20px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .button-email {
-    padding: 12px 20px;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .button-hero {
-    position: relative;
-    left: 0;
-    width: 100%;
-  }
-
-  .animation {
-    display: none;
-  }
-
-  .logos {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 50px;
-  }
-
-  .logos img {
-    width: 80px;
-  }
-
-  .t-box {
-    flex-direction: column;
-  }
-
-  .t-2row {
-    width: 100%;
-  }
-
-  .t-box2 {
-    flex-wrap: wrap;
-  }
-
-  .t-3row {
-    width: calc(50% - 20px);
-  }
-
-  .floating-text h1 {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .t-100 {
-    flex-direction: column;
-  }
-
-  .t-50 {
-    width: 100%;
-  }
-
-  .t-border {
-    margin: 20px 0;
-  }
-
-  .money-bar .end {
-    padding-left: 0;
-  }
-
-  .work-img {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .work-about {
-    width: 80%;
-    margin-bottom: 30px;
-  }
-
-  .w-img {
-    width: 80%;
-    margin: 20px 0;
-  }
-
-  .work-mar {
-    margin-top: 0;
-  }
-
-  .head-ab, .head-ab2, .head-ab3, .head-ab4 {
-    position: relative;
-    top: 0;
-    left: 0;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .work-3, .work-4 {
-    text-align: center;
-  }
-
-  .work-3 h1, .work-4 h1 {
-    text-align: center;
-  }
-
-  .e-100 .flex {
-    flex-direction: column;
-  }
-
-  .e-60, .e-40 {
-    width: 100%;
-  }
-
-  .e-40 ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .e-40 ul li {
-    margin: 10px;
-  }
-
-  .card {
-    flex-wrap: wrap;
-  }
-
-  .card1 {
-    width: calc(50% - 20px);
-  }
-
-  .f-100 {
-    flex-direction: column;
-  }
-
-  .f-50 {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .qustions h2 i {
-    margin-left: auto;
-  }
-
-  .i-mar1, .i-mar2 {
-    margin-left: auto !important;
-  }
-
-  .f-box {
-    flex-wrap: wrap;
-  }
-
-  .f-4row {
-    width: calc(50% - 20px);
-    margin-top: 30px;
-  }
-
-  .s-100 {
-    flex-direction: column;
-  }
-
-  .s-50 {
-    width: 100%;
-  }
-
-  .footer-head h1 {
-    font-size: 40px;
-  }
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Small devices (landscape phones, 768px and below) */
-@media screen and (max-width: 768px) {
-  .hero-about p, .hero-about2 p, .hero-about3 p {
-    font-size: 32px;
-  }
-
-  .hero-pera, .hero-pera1 {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .button-last {
-    font-size: 12px;
-  }
-
-  .t-3row {
-    width: 100%;
-  }
-
-  .floating-text h1 {
-    font-size: 24px;
-  }
-
-  .t-sechead {
-    font-size: 32px;
-  }
-
-  .t-sechead p {
-    font-size: 16px;
-  }
-
-  .t-time {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .t-circul {
-    width: 70px;
-    height: 70px;
-  }
-
-  .day p {
-    font-size: 28px;
-    margin-left: 12px;
-  }
-
-  .day-t {
-    margin-left: 5px !important;
-  }
-
-  .t-titile, .t-titile1, .f-50 h2, .s-50 h2 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  .card1 {
-    width: 100%;
-  }
-
-  .f-4row {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .s-card1 {
-    width: 100%;
-  }
-
-  .footer-head h1 {
-    font-size: 28px;
-    line-height: 40px;
-  }
+/* Container Classes */
+.nav-1200, .w-1240 {
+    width: 1200px;
+    margin: auto;
+    max-width: 95%;
 }
 
-/* Extra small devices (phones, 576px and below) */
-@media screen and (max-width: 576px) {
-  .navbar {
-    border-radius: 20px;
-  }
-
-  .menu ul {
-    gap: 5px;
-  }
-
-  .menu ul li a {
-    font-size: 10px;
-    padding: 6px 8px;
-  }
-
-  .button-nav a {
-    padding: 8px 20px;
-    font-size: 12px;
-  }
-
-  .hero-head p {
-    font-size: 10px;
-  }
-
-  .hero-about p, .hero-about2 p, .hero-about3 p {
-    font-size: 24px;
-  }
-
-  .hero-pera, .hero-pera1 {
-    font-size: 12px;
-  }
-
-  .button-email {
-    font-size: 12px;
-  }
-
-  .button-hero a {
-    font-size: 12px;
-  }
-
-  .logos img {
-    width: 60px;
-  }
-
-  .t-2row {
-    padding: 20px;
-  }
-
-  .t-i-about p {
-    font-size: 18px;
-  }
-
-  .t-i-about .row-about {
-    font-size: 14px;
-  }
-
-  .t-3row {
-    height: auto;
-    padding: 30px 20px;
-  }
-
-  .t-3row .t-i-about p {
-    font-size: 18px;
-  }
-
-  .t-3row .row-about {
-    font-size: 14px;
-  }
-
-  .t-sechead {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  .t-sechead span {
-    font-size: 24px;
-  }
-
-  .t-sechead p {
-    font-size: 14px;
-  }
-
-  .purchase {
-    padding: 12px 15px;
-    width: auto;
-  }
-
-  .purchase a {
-    font-size: 12px;
-  }
-
-  .t-border {
-    padding: 30px 20px;
-  }
-
-  .t-50-h h2 {
-    font-size: 20px;
-  }
-
-  .t-circul {
-    width: 60px;
-    height: 60px;
-  }
-
-  .day p {
-    font-size: 24px;
-    margin-left: 8px;
-  }
-
-  .day span {
-    font-size: 14px;
-  }
-
-  .money-recive {
-    font-size: 14px;
-  }
-
-  .work-1 h1, .work-2 h1, .work-3 h1, .work-4 h1 {
-    font-size: 80px;
-  }
-
-  .work-head1 {
-    font-size: 18px;
-  }
-
-  .work-head1 p {
-    font-size: 14px;
-  }
-
-  .exchange {
-    padding: 30px 20px;
-  }
-
-  .e-60 .logo img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .work-head1 {
-    font-size: 16px;
-  }
-
-  .e-40 ul li {
-    width: 80px;
-    height: 80px;
-  }
-
-  .e-40 ul li img {
-    width: 40px;
-  }
-
-  .t-titile1 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  .card1 {
-    padding: 30px 20px;
-  }
-
-  .card1 h2 {
-    font-size: 24px;
-  }
-
-  .card1 span {
-    font-size: 20px;
-  }
-
-  .crtpto-button {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sub-tittle {
-    font-size: 10px;
-  }
-
-  .f-50 h2 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  .qustions h2 {
-    font-size: 14px;
-    padding: 12px 16px;
-  }
-
-  .s-50 h2 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  .s-50 p {
-    font-size: 14px;
-  }
-
-  .follow {
-    font-size: 12px !important;
-  }
-
-  .s-icon li a {
-    font-size: 18px;
-  }
-
-  .s-icon i {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 16px;
-  }
-
-  .s-card1 {
-    padding: 30px 15px;
-  }
-
-  .s-card1 h2 {
-    font-size: 18px;
-  }
-
-  .s-subtitual {
-    font-size: 12px;
-  }
-
-  .card-icon i {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 16px;
-  }
-
-  .footer-head h1 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  hr {
-    margin-top: 50px;
-  }
+/* Large Desktop Screens (1200px - 1400px) */
+@media screen and (max-width: 1400px) {
+    .nav-1200, .w-1240 {
+        width: 1140px;
+    }
 }
 
-/* Landscape mode for mobile devices */
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  .hero {
-    padding: 20px 0;
-  }
-
-  .h-40 {
-    height: auto;
-  }
-
-  .animation {
-    display: none;
-  }
-
-  .work-img {
-    gap: 30px;
-  }
-
-  .work-about {
-    width: 100%;
-  }
-
-  .w-img {
-    width: 60%;
-  }
+/* Desktop Screens (992px - 1199px) */
+@media screen and (max-width: 1199px) {
+    .nav-1200, .w-1240 {
+        width: 960px;
+    }
+    
+    .hero-about p, .hero-about2 p, .hero-about3 p {
+        font-size: 52px;
+    }
+    
+    .t-titile, .t-titile1 {
+        font-size: 42px;
+    }
+    
+    .menu ul li a {
+        padding: 15px;
+        font-size: 13px;
+    }
 }
 
-/* Small height screens */
-@media screen and (max-height: 600px) {
-  .hero {
-    padding: 20px 0;
-  }
-
-  .h-40 {
-    height: auto;
-  }
-
-  .animation {
-    display: none;
-  }
+/* Tablet Landscape (768px - 991px) */
+@media screen and (max-width: 991px) {
+    .nav-1200, .w-1240 {
+        width: 720px;
+    }
+    
+    /* Navbar Responsive */
+    .navbar {
+        width: 95% !important;
+        flex-direction: column;
+        height: auto;
+        padding: 15px 20px;
+        position: relative;
+        top: 0;
+    }
+    
+    .nav-logo {
+        margin-bottom: 15px;
+    }
+    
+    .menu {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .menu ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    
+    .menu ul li a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    
+    .button-nav {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    /* Hero Section */
+    .bg-img {
+        height: auto;
+        min-height: 800px;
+    }
+    
+    .hero {
+        padding: 60px 0 40px;
+    }
+    
+    .h-40 {
+        width: 90%;
+        left: 5%;
+        position: relative;
+        height: auto;
+        background-position: center;
+    }
+    
+    .hero-content {
+        padding-top: 100px;
+    }
+    
+    .hero-about p, .hero-about2 p, .hero-about3 p {
+        font-size: 44px;
+        text-align: center;
+    }
+    
+    .hero-pera, .hero-pera1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    /* Email Form */
+    .email {
+        margin: 0 20px;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .button-email {
+        padding: 14px 20px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .button-hero {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    
+    .email-icon {
+        top: 12px;
+        left: 10px;
+    }
+    
+    .button-last {
+        text-align: center;
+    }
+    
+    /* Animation Images */
+    .animation {
+        display: none;
+    }
+    
+    /* Logos Section */
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 60px;
+    }
+    
+    .logos img {
+        width: 80px;
+        height: auto;
+    }
+    
+    /* Features Boxes */
+    .t-box {
+        flex-direction: column;
+    }
+    
+    .t-2row {
+        width: 100%;
+        height: auto;
+    }
+    
+    .t-box2 {
+        flex-wrap: wrap;
+    }
+    
+    .t-3row {
+        width: calc(50% - 20px);
+        height: auto;
+        margin: 10px;
+    }
+    
+    /* Floating Text */
+    .floating-text h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    /* Token Sale Section */
+    .t-100 {
+        flex-direction: column;
+    }
+    
+    .t-50 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .t-border {
+        margin-left: 0;
+    }
+    
+    .t-sechead {
+        text-align: center;
+    }
+    
+    .t-sechead p {
+        text-align: center;
+    }
+    
+    .purchase {
+        margin: 40px auto 0;
+    }
+    
+    /* Timer */
+    .t-time {
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .money-bar .end {
+        padding-left: 0;
+        float: right;
+    }
+    
+    /* Work Section */
+    .work-img {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .work-about {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .w-img {
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .work-mar {
+        margin-top: 0;
+    }
+    
+    .work-1 h1, .work-2 h1, .work-3 h1, .work-4 h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+    
+    .work-3, .work-4 {
+        text-align: center;
+    }
+    
+    .head-ab, .head-ab2, .head-ab3, .head-ab4 {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .work-head1 p {
+        text-align: center;
+    }
+    
+    /* Exchange Section */
+    .e-100 .flex {
+        flex-direction: column;
+    }
+    
+    .e-60 {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .e-40 {
+        width: 100%;
+    }
+    
+    .e-40 ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .e-40 ul li {
+        margin: 5px;
+    }
+    
+    /* Crypto Direction Cards */
+    .card {
+        flex-wrap: wrap;
+    }
+    
+    .card1 {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+    
+    .crtpto-button {
+        margin: 40px auto 0;
+    }
+    
+    /* FAQ Section */
+    .f-100 {
+        flex-direction: column;
+    }
+    
+    .f-50 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .f-50 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .qustions h2 {
+        font-size: 18px;
+    }
+    
+    .qustions h2 i {
+        margin-left: auto;
+    }
+    
+    /* Roadmap */
+    .f-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .f-4row {
+        width: calc(50% - 20px);
+        margin: 30px 10px 0;
+    }
+    
+    .map-mar1, .map-mar2 {
+        margin-top: 30px;
+    }
+    
+    /* Team Section */
+    .s-100 {
+        flex-direction: column;
+    }
+    
+    .s-50 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .s-card {
+        justify-content: center;
+    }
+    
+    .s-card1 {
+        width: calc(50% - 20px);
+    }
 }
 
-/* Fix for tablet portrait mode */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  .t-3row {
-    width: calc(50% - 20px);
-  }
-
-  .card1 {
-    width: calc(50% - 20px);
-  }
-
-  .f-4row {
-    width: calc(50% - 20px);
-  }
+/* Tablet Portrait (576px - 767px) */
+@media screen and (max-width: 767px) {
+    .nav-1200, .w-1240 {
+        width: 540px;
+    }
+    
+    /* Typography */
+    .hero-about p, .hero-about2 p, .hero-about3 p {
+        font-size: 36px;
+    }
+    
+    .hero-pera, .hero-pera1 {
+        font-size: 16px;
+    }
+    
+    .hero-head p {
+        font-size: 12px;
+    }
+    
+    .t-titile, .t-titile1, .f-50 h2, .s-50 h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    /* Features */
+    .t-3row {
+        width: 100%;
+    }
+    
+    .t-i-about p {
+        font-size: 22px;
+    }
+    
+    /* Token Sale */
+    .t-sechead {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    
+    .t-sechead span {
+        font-size: 28px;
+    }
+    
+    .t-sechead p {
+        font-size: 16px;
+    }
+    
+    .t-50-h h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .t-circul {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .day p {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+    
+    .day span {
+        font-size: 16px;
+        justify-content: center;
+    }
+    
+    .money-recive {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    /* Cards */
+    .card1 {
+        width: 100%;
+    }
+    
+    .card1 h2 {
+        font-size: 28px;
+    }
+    
+    /* FAQ */
+    .qustions h2 {
+        font-size: 16px;
+    }
+    
+    /* Roadmap */
+    .f-4row {
+        width: 100%;
+    }
+    
+    /* Team */
+    .s-card1 {
+        width: 100%;
+    }
+    
+    .s-50 h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .footer-head h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
 }
 
-/* Additional fixes for better mobile experience */
+/* Mobile Landscape (481px - 575px) */
+@media screen and (max-width: 575px) {
+    .nav-1200, .w-1240 {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    /* Navbar */
+    .navbar {
+        padding: 12px 15px;
+    }
+    
+    .menu ul {
+        gap: 8px;
+    }
+    
+    .menu ul li a {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+    
+    .button-nav a {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    
+    /* Hero */
+    .hero-head {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+    
+    .hero-about p, .hero-about2 p, .hero-about3 p {
+        font-size: 28px;
+    }
+    
+    .hero-pera, .hero-pera1 {
+        font-size: 14px;
+    }
+    
+    .button-email {
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+    
+    .button-hero a {
+        font-size: 12px;
+    }
+    
+    .button-last {
+        font-size: 11px;
+    }
+    
+    /* Logos */
+    .logos {
+        gap: 20px;
+    }
+    
+    .logos img {
+        width: 60px;
+    }
+    
+    /* Features */
+    .t-2row {
+        padding: 25px 20px;
+    }
+    
+    .t-icon img {
+        width: 50px;
+    }
+    
+    .t-i-about p {
+        font-size: 18px;
+    }
+    
+    .t-i-about .row-about {
+        font-size: 14px;
+    }
+    
+    .t-3row {
+        padding: 30px 20px;
+    }
+    
+    .t-3row .t-i-about p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    /* Floating Text */
+    .floating-text h1 {
+        font-size: 24px;
+    }
+    
+    /* Token Sale */
+    .t-sechead {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .t-sechead span {
+        font-size: 24px;
+    }
+    
+    .t-sechead p {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    
+    .purchase {
+        padding: 10px 15px;
+    }
+    
+    .purchase a {
+        font-size: 12px;
+    }
+    
+    .t-border {
+        padding: 25px 15px;
+    }
+    
+    .t-circul {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .day p {
+        font-size: 26px;
+        margin-left: 12px;
+    }
+    
+    .day-t {
+        margin-left: 8px !important;
+    }
+    
+    .day span {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    .money-recive {
+        font-size: 14px;
+        margin: 30px 0;
+    }
+    
+    /* Work Section */
+    .work-1 h1, .work-2 h1, .work-3 h1, .work-4 h1 {
+        font-size: 70px;
+    }
+    
+    .work-head1 {
+        font-size: 18px;
+    }
+    
+    .work-head1 p {
+        font-size: 13px;
+    }
+    
+    .w-img img {
+        width: 100%;
+    }
+    
+    /* Exchange */
+    .exchange {
+        padding: 25px 20px;
+    }
+    
+    .e-60 .logo img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .work-head1 {
+        font-size: 18px;
+    }
+    
+    .e-mar {
+        font-size: 13px;
+    }
+    
+    .e-40 ul li {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .e-40 ul li img {
+        width: 35px;
+    }
+    
+    /* Crypto Direction */
+    .t-titile1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .card1 {
+        padding: 30px 20px;
+    }
+    
+    .card1 h2 {
+        font-size: 24px;
+    }
+    
+    .card1 span {
+        font-size: 20px;
+    }
+    
+    .crtpto-button {
+        width: auto;
+        padding: 8px 20px;
+    }
+    
+    .crtpto-button a {
+        font-size: 12px;
+    }
+    
+    /* FAQ */
+    .sub-tittle {
+        font-size: 10px;
+    }
+    
+    .f-50 h2 {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .qustions h2 {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+    
+    /* Team */
+    .s-50 h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .s-50 p {
+        font-size: 14px;
+    }
+    
+    .follow {
+        font-size: 12px !important;
+    }
+    
+    .s-icon li a {
+        font-size: 16px;
+    }
+    
+    .s-icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    
+    .s-card1 {
+        padding: 25px 15px;
+    }
+    
+    .s-card1 h2 {
+        font-size: 18px;
+    }
+    
+    .s-subtitual {
+        font-size: 11px;
+    }
+    
+    .card-icon i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+    
+    /* Footer */
+    .footer-head h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .footer-img img {
+        width: 150px;
+    }
+}
+
+/* Mobile Portrait (320px - 480px) */
 @media screen and (max-width: 480px) {
-  body {
+    .hero-about p, .hero-about2 p, .hero-about3 p {
+        font-size: 24px;
+    }
+    
+    .hero-pera, .hero-pera1 {
+        font-size: 12px;
+    }
+    
+    .hero-head p {
+        font-size: 9px;
+    }
+    
+    .t-titile, .t-titile1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .t-sechead {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .t-sechead span {
+        font-size: 20px;
+    }
+    
+    .t-circul {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .day p {
+        font-size: 22px;
+        margin-left: 8px;
+    }
+    
+    .day span {
+        font-size: 12px;
+    }
+    
+    .work-1 h1, .work-2 h1, .work-3 h1, .work-4 h1 {
+        font-size: 55px;
+    }
+    
+    .work-head1 {
+        font-size: 16px;
+    }
+    
+    .e-60 .logo img {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .e-40 ul li {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .e-40 ul li img {
+        width: 28px;
+    }
+    
+    .s-50 h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+/* Small Height Screens (max-height: 700px) */
+@media screen and (max-height: 700px) and (max-width: 991px) {
+    .hero {
+        padding: 30px 0;
+    }
+    
+    .hero-content {
+        padding-top: 50px;
+    }
+    
+    .h-40 {
+        height: auto;
+    }
+    
+    .animation {
+        display: none;
+    }
+    
+    .logos {
+        padding-top: 40px;
+    }
+}
+
+/* Large Desktop (min-width: 1921px) */
+@media screen and (min-width: 1921px) {
+    .nav-1200, .w-1240 {
+        width: 1400px;
+    }
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .hero-about p, .hero-about2 p, .hero-about3 p {
+        font-size: 80px;
+    }
+    
+    .t-titile, .t-titile1 {
+        font-size: 56px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .animation, .email, .button-nav {
+        display: none;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+}
+
+/* Utility Classes for Responsive */
+.hide-on-mobile {
+    display: block;
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    
+    .show-on-mobile {
+        display: block;
+    }
+}
+
+/* Fix for Overflow Issues */
+body {
     overflow-x: hidden;
-  }
-
-  .nav-1200, .w-1240 {
     width: 100%;
-    padding: 0 15px;
-  }
+}
 
-  .container {
-    padding: 0 10px;
-  }
-
-  img {
+img, video, iframe {
     max-width: 100%;
     height: auto;
-  }
+}
 
-  .flex {
+/* Smooth Transitions */
+.navbar, .button-nav a, .menu ul li a, .card1, .s-card1 {
+    transition: all 0.3s ease;
+}
+
+/* Touch-Friendly Buttons for Mobile */
+@media screen and (max-width: 767px) {
+    button, 
+    .button-nav a,
+    .purchase,
+    .crtpto-button,
+    .menu ul li a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    input, 
+    select, 
+    textarea {
+        font-size: 16px;
+    }
+}
+
+/* Fix for Fixed Elements on Mobile */
+@media screen and (max-width: 991px) {
+    .navbar {
+        position: relative;
+        top: 0;
+    }
+    
+    .bg-img {
+        margin-top: 0;
+    }
+}
+
+/* Grid System for Responsive */
+.row {
+    display: flex;
     flex-wrap: wrap;
-  }
+    margin: 0 -15px;
+}
 
-  .gap-20 {
-    gap: 15px;
-  }
-      }
+.col {
+    padding: 0 15px;
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .col {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive Spacing */
+@media screen and (max-width: 991px) {
+    .p-100 {
+        padding: 60px 0;
+    }
+    
+    .m-100 {
+        margin: 60px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .p-100 {
+        padding: 40px 0;
+    }
+    
+    .m-100 {
+        margin: 40px 0;
+    }
+        }
